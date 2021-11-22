@@ -1,4 +1,4 @@
-name: payment-service-<+pipeline.variables.seusername>
+name: nginx-service
 replicas: 1
 
 image: <+artifact.image>
