@@ -22,6 +22,6 @@ serviceTargetPort: 8080
 
 env:
   config:
-    
+    HARNESS_BUILD: <+pipeline.sequenceId>
   secrets:
     key2: value2
